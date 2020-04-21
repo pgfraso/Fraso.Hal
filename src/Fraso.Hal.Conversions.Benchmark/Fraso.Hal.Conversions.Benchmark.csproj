@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>pgfraso</Authors>
+    <Company>Fraso</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.12.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fraso.Hal.Conversions\Fraso.Hal.Conversions.csproj" />
+    <ProjectReference Include="..\Fraso.Hal.Primitives\Fraso.Hal.Primitives.csproj" />
+  </ItemGroup>
+
+</Project>
